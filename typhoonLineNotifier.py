@@ -55,6 +55,11 @@ class TyphoonMonitor:
         user_agents = [
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Gecko/20100101 Firefox/92.0",
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/92.0.4515.107 Safari/537.36",
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Gecko/20100101 Firefox/89.0",
+            "Mozilla/5.0 (Linux; Android 10; SM-G950F Build/QP1A.190711.020) Chrome/72.0.3626.121 Mobile Safari/537.36",
+            "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) Version/14.0 Mobile/15E148 Safari/604.1",
+            "Mozilla/5.0 (Linux; Android 9; Pixel 3 Build/PQ1A.190205.002) Chrome/70.0.3538.110 Mobile Safari/537.36",
+            "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36"
         ]
         return {'User-Agent': random.choice(user_agents)}
 
